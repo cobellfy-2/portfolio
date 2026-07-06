@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-de="Julia Köhn — Projekte" data-en="Julia Köhn — Projects">Julia Köhn — Projekte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="sky"><div class="sun"></div></div>
+<div class="stars"></div>
+<svg class="ranges" viewBox="0 0 1440 460" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 300 L180 210 L340 268 L520 190 L700 260 L880 196 L1080 262 L1260 210 L1440 272 L1440 460 L0 460 Z" fill="#3F5177" opacity="0.55"/>
+  <path d="M0 340 L160 268 L300 320 L470 250 L640 322 L820 258 L1010 330 L1200 270 L1440 336 L1440 460 L0 460 Z" fill="#6E506D" opacity="0.72"/>
+  <path d="M0 392 L200 320 L380 384 L560 316 L760 392 L980 322 L1180 396 L1440 340 L1440 460 L0 460 Z" fill="#AD6568" opacity="0.85"/>
+  <path d="M0 440 L240 388 L470 436 L720 384 L980 440 L1230 392 L1440 438 L1440 460 L0 460 Z" fill="#14101d"/>
+</svg>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="dot"></span>Julia&nbsp;Köhn</a>
+    <button class="burger" aria-label="Menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html"  data-de="Start" data-en="Home">Start</a></li>
+      <li><a href="skills.html"  data-de="Fähigkeiten" data-en="Skills">Fähigkeiten</a></li>
+      <li><a href="projects.html" class="active" data-de="Projekte" data-en="Projects">Projekte</a></li>
+      <li><a href="experience.html"  data-de="Erfahrung" data-en="Experience">Erfahrung</a></li>
+      <li><a href="education.html"  data-de="Ausbildung" data-en="Education">Ausbildung</a></li>
+      <li><a href="certificates.html"  data-de="Zertifikate" data-en="Certificates">Zertifikate</a></li>
+      <li><a href="life.html"  data-de="Leben" data-en="Life">Leben</a></li>
+    </ul>
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button data-lang="de" class="on">DE</button>
+      <button data-lang="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="page-title">
+    <p class="eyebrow reveal" data-de="Aus dem Code-Fundus" data-en="From the code shelf">Aus dem Code-Fundus</p>
+    <h1 class="reveal d1" data-de="Projekte" data-en="Projects">Projekte</h1>
+    <p class="lede reveal d2" data-de="Echte Repositories auf GitHub (cobellfy-2) — reproduzierbar, dokumentiert, mit Ergebnissen zum Anfassen. Ein Ausschnitt." data-en="Real repositories on GitHub (cobellfy-2) — reproducible, documented, with results you can inspect. A selection.">Echte Repositories auf GitHub (cobellfy-2) — reproduzierbar, dokumentiert, mit Ergebnissen zum Anfassen. Ein Ausschnitt.</p>
+  </section>
+
+  <section>
+    <div class="grid g-2">
+
+      <div class="card proj reveal">
+        <span class="tag">R · Python · Shiny</span>
+        <h3 data-de="TCGA-BRCA Überlebensanalyse" data-en="TCGA-BRCA Survival Analysis">TCGA-BRCA Überlebensanalyse</h3>
+        <p data-de="Reproduzierbare Multi-Omics-Pipeline für Brustkrebs: klinische Variablen, RNA-seq, Signalwege, Immuninfiltration und somatische Mutationen — als interaktives 8-Tab-Dashboard." data-en="Reproducible multi-omics pipeline for breast cancer: clinical variables, RNA-seq, pathways, immune infiltration and somatic mutations — as an interactive 8-tab dashboard.">Reproduzierbare Multi-Omics-Pipeline für Brustkrebs: klinische Variablen, RNA-seq, Signalwege, Immuninfiltration und somatische Mutationen — als interaktives 8-Tab-Dashboard.</p>
+        <div class="metric-row">
+          <div class="metric"><b>1.035</b><small data-de="PATIENT:INNEN" data-en="PATIENTS">PATIENT:INNEN</small></div>
+          <div class="metric"><b>0.881</b><small data-de="C-INDEX (TEST)" data-en="C-INDEX (TEST)">C-INDEX (TEST)</small></div>
+          <div class="metric"><b>52</b><small data-de="LASSO-GENE" data-en="LASSO GENES">LASSO-GENE</small></div>
+        </div>
+        <div class="links">
+          <a href="https://github.com/cobellfy-2/tcga-survival-analysis" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="card proj reveal d1">
+        <span class="tag">Python · Bioinformatik</span>
+        <h3 data-de="Cycle-Omics-Analyse" data-en="Cycle-Omics Analysis">Cycle-Omics-Analyse</h3>
+        <p data-de="Statistisches Zyklusphasen-Modell aus Tracking-Daten (Circular Statistics, Change-Point-Detection), gespiegelt an Transkriptomik-Datensätzen des Endometriums für differenzielle Genexpression." data-en="A statistical cycle-phase model from tracking data (circular statistics, change-point detection), mirrored against endometrial transcriptomics for differential expression.">Statistisches Zyklusphasen-Modell aus Tracking-Daten (Circular Statistics, Change-Point-Detection), gespiegelt an Transkriptomik-Datensätzen des Endometriums für differenzielle Genexpression.</p>
+        <div class="metric-row">
+          <div class="metric"><b>4</b><small data-de="DATENSÄTZE" data-en="DATASETS">DATENSÄTZE</small></div>
+          <div class="metric"><b>scRNA</b><small data-de="EINZELZELL-ATLAS" data-en="SINGLE-CELL ATLAS">EINZELZELL-ATLAS</small></div>
+        </div>
+        <div class="links">
+          <a href="https://github.com/cobellfy-2/cycle-omics-analysis" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="card proj reveal d2">
+        <span class="tag">JavaScript · React</span>
+        <h3 data-de="Flashcards — Spaced Repetition" data-en="Flashcards — Spaced Repetition">Flashcards — Spaced Repetition</h3>
+        <p data-de="Lern-App mit SM-2-Algorithmus und Excel-Upload: Karten planen sich selbst, damit man genau dann wiederholt, bevor man vergisst." data-en="Learning app with the SM-2 algorithm and Excel upload: cards schedule themselves so you review right before you forget.">Lern-App mit SM-2-Algorithmus und Excel-Upload: Karten planen sich selbst, damit man genau dann wiederholt, bevor man vergisst.</p>
+        <div class="metric-row">
+          <div class="metric"><b>SM-2</b><small data-de="ALGORITHMUS" data-en="ALGORITHM">ALGORITHMUS</small></div>
+          <div class="metric"><b>.xlsx</b><small data-de="IMPORT" data-en="IMPORT">IMPORT</small></div>
+        </div>
+        <div class="links">
+          <a href="https://github.com/cobellfy-2/flashcards" target="_blank" rel="noopener">GitHub →</a>
+          <a href="https://flashcards-cobellfy.vercel.app" target="_blank" rel="noopener" data-de="Live-Demo →" data-en="Live demo →">Live-Demo →</a>
+        </div>
+      </div>
+
+      <div class="card proj reveal d3">
+        <span class="tag">Python · NLP</span>
+        <h3 data-de="NLP → BPMN für draw.io" data-en="NLP → BPMN for draw.io">NLP → BPMN für draw.io</h3>
+        <p data-de="Wandelt in Alltagssprache beschriebene Prozesse automatisch in BPMN-Diagramme um und exportiert sie als .xml zur Visualisierung in draw.io." data-en="Turns processes described in everyday language into BPMN diagrams and exports them as .xml for visualisation in draw.io.">Wandelt in Alltagssprache beschriebene Prozesse automatisch in BPMN-Diagramme um und exportiert sie als .xml zur Visualisierung in draw.io.</p>
+        <div class="metric-row">
+          <div class="metric"><b>BPMN</b><small data-de="AUSGABE" data-en="OUTPUT">AUSGABE</small></div>
+          <div class="metric"><b>.xml</b><small data-de="EXPORT" data-en="EXPORT">EXPORT</small></div>
+        </div>
+        <div class="links">
+          <a href="https://github.com/cobellfy-2/nlp-for-drawio" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="card reveal" style="text-align:center">
+      <h3 data-de="Und im Berufsalltag" data-en="And on the job">Und im Berufsalltag</h3>
+      <p data-de="Für mein IT-Team am Universitätsklinikum Augsburg habe ich ein vollständiges RAG-System gebaut (ChromaDB, FastAPI, Python) über neun Dokumentensammlungen — von Tickets über Wiki bis Sicherheits-Compliance. Nicht öffentlich, aber gern erzähle ich davon." data-en="For my IT team at Augsburg University Hospital I built a full RAG system (ChromaDB, FastAPI, Python) across nine document collections — from tickets and wiki to security compliance. Not public, but happy to talk about it.">Für mein IT-Team am Universitätsklinikum Augsburg habe ich ein vollständiges RAG-System gebaut (ChromaDB, FastAPI, Python) über neun Dokumentensammlungen — von Tickets über Wiki bis Sicherheits-Compliance. Nicht öffentlich, aber gern erzähle ich davon.</p>
+      <div class="links" style="justify-content:center;margin-top:16px">
+        <a href="https://github.com/cobellfy-2" target="_blank" rel="noopener" style="font-family:var(--mono);font-size:.82rem;color:var(--amber);text-decoration:none;border-bottom:1px solid rgba(240,166,78,.3)" data-de="Alle Repos auf GitHub →" data-en="All repos on GitHub →">Alle Repos auf GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot-inner">
+    <span>© 2026 Julia Köhn · München</span>
+    <span><a href="mailto:j.v.koehn@t-online.de">j.v.koehn@t-online.de</a> · <a href="https://github.com/cobellfy-2" target="_blank" rel="noopener">github.com/cobellfy-2</a></span>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
